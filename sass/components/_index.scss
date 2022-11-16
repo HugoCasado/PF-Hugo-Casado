@@ -5,9 +5,7 @@
 /*inicio index*/
 section {
     h1 {
-        color: brown;
-        font-size: 35px;
-        text-decoration: underline;
+        @extend %titulo;
     }
 
     .largo {

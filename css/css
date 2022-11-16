@@ -3,6 +3,11 @@
 }
 
 /*inicio index*/
+section h1 {
+  color: brown;
+  font-size: 35px;
+  text-decoration: underline;
+}
 section .largo {
   width: 30%;
 }
@@ -38,7 +43,7 @@ nav h2 {
   color: brown;
   border: 1px solid rgb(231, 208, 180);
   width: 30%;
-  font-size: 35px;
+  font-size: 30px;
   padding-bottom: 200px;
   display: block;
   text-decoration: underline;
@@ -111,7 +116,7 @@ nav .panificados:hover {
 /*inicio la empresa*/
 nav h3 {
   color: brown;
-  font-size: 35px;
+  font-size: 28px;
   padding-bottom: 100px;
   text-decoration: underline;
 }
@@ -119,7 +124,7 @@ nav .empresa {
   width: 100px;
   position: absolute;
   top: 60px;
-  left: 230px;
+  left: 160px;
   border-radius: 50%;
 }
 nav .empresa:hover {
@@ -133,6 +138,11 @@ nav p {
 
 /*fin la empresa*/
 /*inicio contacto*/
+footer nav h4 {
+  color: brown;
+  font-size: 27px;
+  text-decoration: underline;
+}
 footer nav ul .cinco,
 footer nav ul .seis,
 footer nav ul .siete,
@@ -296,10 +306,5 @@ footer nav ul .mapa:hover {
     font-size: 25px;
   }
 }
-section h1, footer nav h4 {
-  color: brown;
-  font-size: 35px;
-  text-decoration: underline;
-}
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css.map */

@@ -2,9 +2,7 @@
 footer {
     nav {
         h4 {
-            color: brown;
-            font-size: 27px;
-            text-decoration: underline;
+            @extend %titulo;
         }
 
         ul {
