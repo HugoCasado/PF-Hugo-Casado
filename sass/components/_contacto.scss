@@ -1,0 +1,91 @@
+/*inicio contacto*/
+footer {
+    nav {
+        h4 {
+            color: brown;
+            font-size: 27px;
+            text-decoration: underline;
+        }
+
+        ul {
+
+            .cinco,
+            .seis,
+            .siete,
+            .ocho {
+                padding-bottom: 200px;
+                text-decoration: underline;
+            }
+
+            .whatsapp {
+                width: 50px;
+                position: absolute;
+                top: 90px;
+                left: 200px;
+            }
+
+            .whatsapp:hover {
+                transform: scale(1.5) translateX(50px);
+                transition: all 3s ease;
+            }
+
+            .facebook {
+                width: 50px;
+                position: absolute;
+                top: 320px;
+                left: 220px;
+            }
+
+            .facebook:hover {
+                transform: scale(1.5) translateX(50px);
+                transition: all 3s ease;
+            }
+
+            .direccion {
+                width: 50px;
+                position: absolute;
+                top: 550px;
+                left: 350px;
+            }
+
+            .direccion:hover {
+                transform: scale(1.5) translateX(50px);
+                transition: all 3s ease;
+            }
+
+            .ubicacion {
+                width: 50px;
+                position: absolute;
+                top: 780px;
+                left: 150px;
+            }
+
+            .ubicacion:hover {
+                transform: scale(1.5) translateX(30px);
+                transition: all 3s ease;
+            }
+
+            .mapa {
+                width: 300px;
+                position: absolute;
+                top: 740px;
+                left: 300px;
+
+            }
+
+            .mapa:hover {
+                transform: scale(1.2) translateX(100px) translateY(-50px);
+                transition: all 3s;
+            }
+
+            @keyframes animacion {
+                50% {
+                    border-radius: 50%;
+                }
+            }
+
+        }
+    }
+}
+
+/*fin contacto*/

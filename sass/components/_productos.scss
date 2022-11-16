@@ -1,0 +1,90 @@
+/*inicio productos*/
+nav {
+    h2 {
+        color: brown;
+        border: 1px solid rgb(231, 208, 180);
+        width: 30%;
+        font-size: 30px;
+        padding-bottom: 200px;
+        display: block;
+        text-decoration: underline;
+    }
+
+    .producto {
+        width: 400px;
+        position: absolute;
+        top: 75px;
+        left: 500px;
+        border-radius: 5%;
+        border: 1px solid black;
+    }
+
+    .uno,
+    .dos,
+    .tres,
+    .cuatro {
+        padding-bottom: 200px;
+    }
+
+    .vacuno {
+        width: 200px;
+        position: absolute;
+        top: 350px;
+        left: 500px;
+        border-radius: 5%;
+        transition: all 5ms;
+
+    }
+
+    .vacuno:hover {
+        transform: scale(1.5) translateX(50px);
+        transition: all 3s;
+        animation: animacion 4s;
+
+    }
+
+    .aves {
+        width: 200px;
+        position: absolute;
+        top: 650px;
+        left: 500px;
+        border-radius: 5%;
+    }
+
+    .aves:hover {
+        transform: scale(1.5) translateX(50px);
+        transition: all 3s;
+        animation: animacion 4s;
+    }
+
+    .embutidos {
+        width: 200px;
+        position: absolute;
+        top: 970px;
+        left: 500px;
+        border-radius: 5%;
+    }
+
+    .embutidos:hover {
+        transform: scale(1.5) translateX(50px);
+        transition: all 3s;
+        animation: animacion 4s;
+    }
+
+    .panificados {
+        width: 200px;
+        position: absolute;
+        top: 1200px;
+        left: 500px;
+        border-radius: 5%;
+    }
+
+    .panificados:hover {
+        transform: scale(1.5) translateX(50px);
+        transition: all 3s;
+        animation: animacion 4s;
+    }
+
+}
+
+/*fin productos*/
