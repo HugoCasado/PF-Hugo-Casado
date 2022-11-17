@@ -144,7 +144,7 @@ footer nav ul .whatsapp {
   width: 50px;
   position: absolute;
   top: 90px;
-  left: 200px;
+  left: 150px;
 }
 footer nav ul .whatsapp:hover {
   transform: scale(1.5) translateX(50px);
