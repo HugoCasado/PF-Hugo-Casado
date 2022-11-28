@@ -143,8 +143,8 @@ footer nav ul .ocho {
 footer nav ul .whatsapp {
   width: 50px;
   position: absolute;
-  top: 90px;
-  left: 200px;
+  top: 95px;
+  left: 120px;
 }
 footer nav ul .whatsapp:hover {
   transform: scale(1.5) translateX(50px);
@@ -154,7 +154,7 @@ footer nav ul .facebook {
   width: 50px;
   position: absolute;
   top: 320px;
-  left: 220px;
+  left: 150px;
 }
 footer nav ul .facebook:hover {
   transform: scale(1.5) translateX(50px);
@@ -164,7 +164,7 @@ footer nav ul .direccion {
   width: 50px;
   position: absolute;
   top: 550px;
-  left: 350px;
+  left: 250px;
 }
 footer nav ul .direccion:hover {
   transform: scale(1.5) translateX(50px);
@@ -174,7 +174,7 @@ footer nav ul .ubicacion {
   width: 50px;
   position: absolute;
   top: 780px;
-  left: 150px;
+  left: 120px;
 }
 footer nav ul .ubicacion:hover {
   transform: scale(1.5) translateX(30px);
